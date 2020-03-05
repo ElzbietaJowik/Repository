@@ -1,0 +1,294 @@
+---
+title: "TESTY"
+author: "Elżbieta Jowik"
+output: 
+  pdf_document: 
+    fig_caption: yes      
+---
+```{r setup, include=FALSE, cache=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+library(plot3D)
+library(igraph)
+
+spectral_clustering <- function(X, k, M){
+
+  normalize <- function(x){
+    return((x - min(x)) / (max(x) - min(x)))
+  }
+  
+  
+  Mnn <- function(X, M){
+    EuclideanDistance <- dist(X, method = "euclidean")
+    EuclideanDistance <- as.matrix(EuclideanDistance)
+    EuclideanDistance <- normalize(EuclideanDistance)
+    diag(EuclideanDistance) = NA
+    sort_permutation <- order(EuclideanDistance[1, ], decreasing = FALSE)
+    
+    S <- matrix(sort_permutation[1:M], nrow = 1)
+    
+    for (j in 2:dim(EuclideanDistance)[1]) {
+      sort_permutation <- order(EuclideanDistance[j, ])
+      S <- rbind(S, matrix(sort_permutation[1:M], nrow = 1))
+    }
+    return(S)
+  }
+  S <- Mnn(X, 5)
+  
+  Mnn_graph <- function(S){
+    n <- dim(S)[1]
+    G <- matrix(0, ncol = n, nrow = n) 
+    
+    for (i in 1:dim(S)[1]) {
+      for (j in 1:dim(S)[2]){
+        l <- S[i, j]
+        G[i, l] <- 1
+        G[l, i] <- 1 
+      }
+    }
+    
+    G_graph <- graph.adjacency(G, mode = "undirected")
+    details <- groups(components(G_graph)) 
+    if (length(details) != 1){ 
+      for (i in 1:(length(details)-1)) {
+        G[details[[i]][1], details[[i+1]][1]] <- 1
+        G[details[[i+1]][1], details[[i]][1]] <- 1
+      }
+    }
+    
+    return(G)
+  }
+  
+  G <- Mnn_graph(S)
+  
+  Laplacian_eighen <- function(G, k){
+    
+    n <- dim(G)[1]
+    D <- matrix(0, nrow = n, ncol = n)
+    
+    for (i in 1:n) {
+      D[i, i] <- sum(G[i, ])    
+    }
+    
+    L <- D-G
+    eig <- eigen(L)
+    values <- eig$values
+    vectors <- eig$vectors
+    m <- length(values)
+
+    E <- vectors[, (m-1)]
+    for (i in (m-2):(m-k-1)) {
+      E <- cbind(E, vectors[, i])    
+    }
+    return(as.matrix(E))
+  }
+  
+  
+  E <- Laplacian_eighen(G, k)
+  k_means <- kmeans(E, k, nstart = 100)
+  return(k_means$cluster)
+}
+```
+
+Ten plik zawiera testy poprawności metod: Mnn(), Mnn_graph(), Laplacian_eigen(), spectral_clustering(), zaimplementowanych w pliku **spectral.R**.  
+Testy są przeprowadzone na trzech własnych zbiorach danych zarówno z $R^2$, jak i $R^3$.  
+Oczywiście zbiory różnią się licznością danych, przyjmowanym kształtem, a w niektórych przypadkach liczbą wymiarów. Wszystkie z rozważanych zbiorów mają skoncentrowaną strukturę, gdyż umożliwia to sporządzenie wiarygodnych etykiet.
+
+# FIGURY 2D  
+## 1. SKUPISKA  
+Najprostszy do analizy skupień zbiór, wygenerowany przy pomocy rozkładu normalnego. Skupiska  
+wygenerowane zostały dla 500 punktów każde.
+
+```{r shell, include=FALSE, cache=TRUE}
+x <- rnorm(500, -10, 3)
+y <- rnorm(500, -10, 3)
+
+x <- as.matrix(x)
+y <- as.matrix(y)
+set_1 <- as.data.frame(cbind(x, y))
+
+x <- rnorm(500, 10, 3)
+y <- rnorm(500, 10, 3)
+
+x <- as.matrix(x)
+y <- as.matrix(y)
+set_2 <- as.data.frame(cbind(x, y))
+set <- rbind(set_1, set_2)
+```
+```{r, echo=TRUE, cache=TRUE, include=FALSE}
+set_labels <- as.integer(read.table("set.labels0")[,1])
+result <- spectral_clustering(set, 2, 20)
+result
+```
+  
+**a) INTERPRETACJA GRAFICZNA**  
+```{r, echo=FALSE, fig.width = 5, fig.height = 5, fig.align='center', cache=TRUE}
+plot3D::scatter2D(set[,1], set[,2], pch=19, ann = FALSE, cex=1)
+```
+\newpage
+
+**b) TEST**  
+
+Kryterium, jakie będziemy stosować do oceny poprawności zaimplementowanych metod będą etykiety, przygotowane na etapie tworzenia wymienionych w pracy zbiorów.  
+Do porównania zgodności wynikowego ciągu przypisań funkcji spectral_clustering() i danych z góry etykiet referencyjnych będziemy stosować:  
+
+1. **indeks Fowlkesa-Mallowsa** (dendextend::FM_index)  
+2. **skorygowany indeks Randa** mclust::adjustedRandIndex  
+
+Każdy z powyższych indeksów zwraca wartość równą **1**, jeśli dane podziały są równoważne. Im ich wartość jest dalej od 1, tym bardziej są one od siebie różne.  
+
+
+**UWAGA!** Na potrzeby testów będziemy rozważać maksymalne wartości zwróconych indeksów dla określonego (jednego) parametru M. Pełna analiza algorytmu z uwzględnieniem różnych parametrów znajduje się w raporcie. 
+
+
+**Skorygowany indeks Randa**
+
+```{r, echo=TRUE, cache=TRUE, test1, include=TRUE}
+mclust::adjustedRandIndex(set_labels, result)
+
+```  
+**Indeks Fowlkesa-Mallowsa**  
+  
+```{r, echo=TRUE,cache=TRUE, test2, include=TRUE}
+dendextend::FM_index(set_labels, result)
+```
+**WIZUALIZACJA OTRZYMANEGO PODZIAŁU**  
+
+```{r, echo=FALSE, fig.width = 5, fig.height = 5, fig.align='center', cache=TRUE}
+plot3D::scatter2D(set[,1], set[,2], pch=19, ann = FALSE, cex=1, col = result+6)
+```  
+\newpage  
+
+**WNIOSKI:**  
+
+Oczywiście zarówno indeks Randa, jak i Fowlkesa-Mallowsa przyjmują różne wartości przy kolejnych kompilacjach. W większości jednak wartości tych indeksów zawierają się w przedziale [0.7, 1]. 
+Na podstawie otrzymanych rezultatów możemy stwierdzić, że dla **prostych** zbiorów danych, w których
+występuje **wyraźny podział** punktów na podzbiory, algorytm działa zadowalająco, co jasno wskazuje na poprawność
+działania zaimplementowanych metod.
+
+
+\newpage
+
+# FIGURY 3D  
+
+## 1.  HIPERBOLOIDA DWUPOWŁOKOWA 
+Trójwymiarowa hiperboloida dwupowłokowa, wygenerowana dla 1000 punktów przy użyciu równania powierzchni stożkowej wyrażonego we współrzędnych kartezjańskich. 
+```{r, echo = TRUE, cache=TRUE, include=FALSE}
+num_points = 500
+x <-  runif(num_points, -10, 10)
+y <- runif(num_points, -5*sqrt(5), 5*sqrt(5))
+z <- 10 * sqrt(x^2/4 + y^2/5 + 1)
+w <- -z
+
+something1 <- as.data.frame(cbind(x, y, z))
+
+z <- as.matrix(w)
+
+something2 <- as.data.frame(cbind(x, y, z))
+colnames(something2)[3] <- "z"
+
+something <- rbind(something1, something2)
+```
+
+```{r, echo=TRUE, cache=TRUE, include=FALSE}
+something_labels <- as.integer(read.table("something.labels0")[,1])
+result <-  spectral_clustering(something, 2, 20)
+```  
+  
+  
+**a) Interpretacja graficzna**  
+
+```{r, echo=FALSE, fig.width = 4.5, fig.height = 4.5, ann = FALSE, cache=TRUE}
+plot3D::scatter3D(something[, 1], something[, 2], something[, 3], pch=18, cex=1.5, bty = "u", phi = 0, theta = 0, colkey = FALSE)
+plot3D::scatter3D(something[, 1], something[, 2], something[, 3], pch=18, cex=1.5, bty = "u", phi = 0, theta = 50)
+```
+```{r, echo=FALSE, fig.width = 4.5, fig.height = 4.5,fig.align='center', ann = FALSE, cache=TRUE}
+plot(something)
+```
+\newpage  
+
+**b) TEST**  
+
+**Skorygowany indeks Randa**
+```{r, echo=TRUE, cache=TRUE, test3}
+mclust::adjustedRandIndex(something_labels, result)
+```
+**Indeks Fowlkesa-Mallowsa**
+```{r, echo=TRUE,cache=TRUE, test4}
+dendextend::FM_index(something_labels, result)
+```   
+
+**WIZUALIZACJA OTRZYMANEGO PODZIAŁU**  
+
+```{r, echo=FALSE, fig.width = 4.5, fig.height = 4.5, ann = FALSE, cache=TRUE}
+plot3D::scatter3D(something[, 1], something[, 2], something[, 3], pch=18, cex=1.5, bty = "u", phi = 0, theta = 0, col = result + 6, colkey = FALSE)
+plot3D::scatter3D(something[, 1], something[, 2], something[, 3], pch=18, cex=1.5, bty = "u", phi = 0, theta = 50, col = result+6)
+```
+**WNIOSKI:**  
+Zbiór danych, reprezentujący hiperboloidę dwupowłokową, jest w pewnym sensie analogiczny do pierwszego  
+z omawianych przykładów - skupisk. Bowiem zarówno tutaj, jak powyżej gołym okiem można wyodrębnić pewien podział. Podobnie jak w pierwszym przypadku zwracane indeksy są dość jednoznaczne, co sugeruje, że testowany algorytm dobrze radzi sobie z rozważanym zbiorem. 
+\newpage  
+
+## 2. POWIERZCHNIA STOŻKOWA  
+
+Trójwymiarowa powierzchnia stożkowa wygenerowana dla 1 000 punktów.
+Na pierwszy rzut oka zbiór ten wydaje się być w pełni analogiczny do poprzedniego. Różnica jednak jest zasadnicza. Otóż zarówno  
+w przypadku skupisk, jak i hiperboloidy pozdbiory, na które dzieliliśmy zbiory, były rozłączne. W tym przypadku nieznacznie się one nakładają, przez co podział zwracany przez testowany algorytm jest obarczony większym błędem niż w poprzednich. 
+```{r funnel, include=FALSE, cache=TRUE}
+num_points = 1000
+
+x <-  runif(num_points, -200, 200)
+y <- runif(num_points, -100*sqrt(5), 100*sqrt(5))
+z <- 6 * sqrt(x^2/4 + y^2/5)
+w <- -z
+
+x <- as.matrix(x)
+y <- as.matrix(y)
+z <- as.matrix(z)
+
+funnel_1 <- as.data.frame(cbind(x, y, z))
+
+z <- as.matrix(w)
+
+funnel_2 <- as.data.frame(cbind(x, y, z))
+
+funnel <- rbind(funnel_1, funnel_2)
+colnames(funnel) <- c("x", "y", "z")
+```
+```{r, echo=TRUE, cache=TRUE, include=FALSE}
+funnel_labels <- as.integer(read.table("funnel.labels0")[,1])
+result <- spectral_clustering(funnel, 2, 1000)
+```
+**a) INTERPRETACJA GRAFICZNA**  
+
+```{r, echo=FALSE, fig.width = 4.5, fig.height = 4.5, ann = FALSE, cache=TRUE}
+plot3D::scatter3D(funnel[, 1], funnel[, 2], funnel[, 3], pch=18, cex=1.5, bty = "u", phi = 0, theta = 0, colkey = FALSE)
+plot3D::scatter3D(funnel[, 1], funnel[, 2], funnel[, 3], pch=18, cex=1.5, bty = "u", phi = 0, theta = 50)
+```
+
+```{r, echo=FALSE, fig.width = 4.5, fig.height = 4.5,fig.align='center', ann = FALSE, cache=TRUE}
+plot(funnel)
+```
+\newpage
+
+**b) TEST**  
+
+**Skorygowany indeks Randa**
+```{r, echo=TRUE, cache=TRUE, test7}
+mclust::adjustedRandIndex(funnel_labels, result)
+```
+**Indeks Fowlkesa-Mallowsa**
+```{r, echo=TRUE,cache=TRUE, test8}
+dendextend::FM_index(funnel_labels, result)
+```  
+**WIZUALIZACJA OTRZYMANEGO PODZIAŁU**  
+
+```{r, echo=FALSE, fig.width = 4.5, fig.height = 4.5, ann = FALSE, cache=TRUE}
+plot3D::scatter3D(funnel[, 1], funnel[, 2], funnel[, 3], pch=18, cex=1.5, bty = "u", phi = 0, theta = 0, col = result + 6, colkey = FALSE)
+plot3D::scatter3D(funnel[, 1], funnel[, 2], funnel[, 3], pch=18, cex=1.5, bty = "u", phi = 0, theta = 50, col = result + 6)
+```
+**WNIOSKI:**  
+
+Brak rozłączności podzbiorów powoduje, że wygenerowane indeksy nie są już tak jednoznaczne jak w poprzednich przypadkach. Jednocześnie odchylenia od oczekiwanego wyniku są na tyle nieznaczne, że nie poddają pod wątpliwość poprawności implementacji metod.  
+
+## PODSUMOWANIE:
+Na postawie przeprowadzonych testów mogę stwierdzić, że implementacja testowanych metod jest poprawna. Wartości zwracanych indeków są zadowalające, algorytm dobrze radzi sobie na zbiorach o skoncentrowanej strukturze. Pełna analiza algorytmu na zbiorach o odmiennych kształtach znajduje się w raporcie.

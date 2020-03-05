@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b1d0a98-26e2-45c7-98e0-8870a98240fa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-83" />
+    <option name="y" value="159" />
+    <option name="width" value="967" />
+    <option name="height" value="881" />
+  </component>
+  <component name="ProjectId" id="1Yibc6PfY2YBm0IAWB74QEUb61j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560089690459" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="queue" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.Main" />
+      <module name="Stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.Main" />
+      <module name="Stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b1d0a98-26e2-45c7-98e0-8870a98240fa" name="Default Changelist" comment="" />
+      <created>1552916834212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552916834212</updated>
+      <workItem from="1552916837475" duration="2621000" />
+      <workItem from="1552919639980" duration="825000" />
+      <workItem from="1552924138154" duration="86000" />
+      <workItem from="1552924306057" duration="1949000" />
+      <workItem from="1552940408469" duration="24000" />
+      <workItem from="1552940850787" duration="21000" />
+      <workItem from="1553004866636" duration="36000" />
+      <workItem from="1553020812743" duration="7454000" />
+      <workItem from="1553102264420" duration="3934000" />
+      <workItem from="1553107348700" duration="118000" />
+      <workItem from="1553284910129" duration="8000" />
+      <workItem from="1553337878003" duration="27000" />
+      <workItem from="1553450836679" duration="37000" />
+      <workItem from="1553507494833" duration="78000" />
+      <workItem from="1560089357349" duration="337000" />
+      <workItem from="1560165828275" duration="1998000" />
+      <workItem from="1560173235800" duration="42000" />
+      <workItem from="1583428443905" duration="9000" />
+      <workItem from="1583428505701" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1583428506196">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="651" y="381" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583428506196" />
+  </component>
+</project>

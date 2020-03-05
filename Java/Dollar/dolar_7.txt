@@ -1,0 +1,151 @@
+Currency Name	Code	1 USD	in USD
+Euro	EUR	0.889917	1.123700
+U.K. Pound Sterling	GBP	0.764878	1.307399
+Australian Dollar	AUD	1.406592	0.710938
+Canadian Dollar	CAD	1.336099	0.748447
+Japanese Yen	JPY	110.950989	0.009013
+Swiss Franc	CHF	0.995447	1.004574
+Comoro franc	KMF	434.054933	0.002304
+Afghan afghani	AFN	76.448625	0.013081
+Albanian lek	ALL	111.664377	0.008955
+Algerian Dinar	DZD	119.365050	0.008378
+Angolan kwanza	AOA	319.211232	0.003133
+Argentine Peso	ARS	43.070295	0.023218
+Armenia Dram	AMD	487.879013	0.002050
+Aruban florin	AWG	1.818522	0.549897
+Azerbaijan Manat	AZN	1.700089	0.588205
+Bahamian Dollar	BSD	1.005047	0.994979
+Bahrain Dinar	BHD	0.377498	2.649023
+Bangladeshi taka	BDT	84.298497	0.011863
+Barbadian Dollar	BBD	2.000823	0.499794
+Belarussian Ruble	BYN	2.133543	0.468704
+Belize dollar	BZD	2.025238	0.493769
+Bolivian Boliviano	BOB	6.908510	0.144749
+Bosnia and Herzegovina convertible mark	BAM	1.742657	0.573836
+Botswana Pula	BWP	10.732315	0.093177
+Brazilian Real	BRL	3.895917	0.256679
+Brunei Dollar	BND	1.355941	0.737495
+Bulgarian Lev	BGN	1.740786	0.574453
+Burundian franc	BIF	1,814.559348	0.000551
+Cambodian riel	KHR	4,049.191102	0.000247
+Cape Verde escudo	CVE	98.725123	0.010129
+Central African CFA Franc	XAF	586.783059	0.001704
+CFP Franc	XPF	106.324001	0.009405
+Chilean Peso	CLP	680.680733	0.001469
+Chinese Yuan	CNY	6.711981	0.148987
+Colombian Peso	COP	3,187.589855	0.000314
+Congolese franc	CDF	1,654.658653	0.000604
+Costa Rican ColĂłn	CRC	603.707239	0.001656
+Croatian Kuna	HRK	6.613757	0.151200
+Cuban peso	CUP	1.005047	0.994979
+Czech Koruna	CZK	22.964629	0.043545
+Danish Krone	DKK	6.644583	0.150499
+Djiboutian franc	DJF	178.871575	0.005591
+Dominican Peso	DOP	50.735560	0.019710
+East Caribbean Dollar	XCD	2.722097	0.367364
+Egyptian Pound	EGP	17.298921	0.057807
+Eritrean nakfa	ERN	15.140454	0.066048
+Ethiopian birr	ETB	28.757769	0.034773
+Fiji Dollar	FJD	2.125241	0.470535
+Gambian dalasi	GMD	50.601516	0.019762
+Georgian lari	GEL	2.707857	0.369296
+Ghanaian Cedi	GHS	5.042831	0.198301
+Gibraltar pound	GIP	0.762310	1.311802
+Guatemalan Quetzal	GTQ	7.713522	0.129642
+Guinean franc	GNF	9,163.958810	0.000109
+Guyanese dollar	GYD	209.892317	0.004764
+Haitian gourde	HTG	84.187578	0.011878
+Honduran Lempira	HNL	24.554710	0.040725
+Hong Kong Dollar	HKD	7.850095	0.127387
+Hungarian Forint	HUF	285.730967	0.003500
+Icelandic Krona	ISK	122.471016	0.008165
+Indian Rupee	INR	69.190835	0.014453
+Indonesian Rupiah	IDR	14,224.168838	0.000070
+Iranian rial	IRR	42,026.173918	0.000024
+Iraqi dinar	IQD	1,198.915425	0.000834
+Israeli New Sheqel	ILS	3.627580	0.275666
+Jamaican Dollar	JMD	125.180875	0.007988
+Jordanian Dinar	JOD	0.710266	1.407924
+Kazakhstani Tenge	KZT	380.055493	0.002631
+Kenyan shilling	KES	101.369080	0.009865
+Kuwaiti Dinar	KWD	0.304011	3.289354
+Kyrgyzstan Som	KGS	69.973071	0.014291
+Lao kip	LAK	8,627.330591	0.000116
+Lebanese Pound	LBP	1,512.052333	0.000661
+Lesotho loti	LSL	14.520602	0.068868
+Liberian dollar	LRD	164.400634	0.006083
+Libyan Dinar	LYD	1.358414	0.736152
+Macanese pataca	MOP	8.115540	0.123220
+Macedonian denar	MKD	54.805700	0.018246
+Malagasy ariary	MGA	3,573.260058	0.000280
+Malawian kwacha	MWK	735.227405	0.001360
+Malaysian Ringgit	MYR	4.079916	0.245103
+Maldivian rufiyaa	MVR	15.533393	0.064377
+Mauritanian Ouguiya	MRO	36.489538	0.027405
+Mauritanian ouguiya	MRU	36.655835	0.027281
+Mauritian Rupee	MUR	34.780165	0.028752
+Mexican Peso	MXN	19.306418	0.051796
+Moldova Lei	MDL	17.358321	0.057609
+Mongolian togrog	MNT	2,641.748126	0.000379
+Moroccan Dirham	MAD	9.669401	0.103419
+Mozambican metical	MZN	63.419450	0.015768
+Myanma Kyat	MMK	1,527.935693	0.000654
+Namibian dollar	NAD	14.526108	0.068842
+Nepalese Rupee	NPR	110.737902	0.009030
+Neth. Antillean Guilder	ANG	1.853724	0.539455
+New Taiwan Dollar 	TWD	30.836701	0.032429
+New Turkmenistan Manat	TMT	3.502636	0.285499
+New Zealand Dollar	NZD	1.467884	0.681253
+Nicaraguan CĂłrdoba	NIO	32.859007	0.030433
+Nigerian Naira	NGN	307.557586	0.003251
+Norwegian Krone	NOK	8.596835	0.116322
+Omani Rial	OMR	0.387056	2.583604
+Pakistani Rupee	PKR	140.728776	0.007106
+Panamanian Balboa	PAB	1.005047	0.994979
+Papua New Guinean kina	PGK	3.373959	0.296388
+Paraguayan GuaranĂ­	PYG	6,179.231044	0.000162
+Peruvian Nuevo Sol	PEN	3.317825	0.301402
+Philippine Peso	PHP	52.542456	0.019032
+Polish Zloty	PLN	3.829919	0.261102
+Qatari Rial	QAR	3.667475	0.272667
+Romanian New Leu	RON	4.238296	0.235944
+Russian Rouble	RUB	65.118336	0.015357
+Rwandan franc	RWF	906.850091	0.001103
+Salvadoran colon	SVC	8.795717	0.113692
+Samoan tala	WST	2.597325	0.385012
+SĂŁo TomĂŠ and PrĂ­ncipe Dobra	STN	21.888770	0.045686
+Saudi Riyal	SAR	3.750654	0.266620
+Serbian Dinar	RSD	104.947603	0.009529
+Seychelles rupee	SCR	13.724596	0.072862
+Sierra Leonean leone	SLL	8,991.865687	0.000111
+Singapore Dollar	SGD	1.354416	0.738326
+Solomon Islands dollar	SBD	8.125869	0.123064
+Somali shilling	SOS	581.264762	0.001720
+South African Rand	ZAR	14.385703	0.069513
+South Korean Won	KRW	1,135.344625	0.000881
+South Sudanese pound	SSP	156.456920	0.006392
+Sri Lanka Rupee	LKR	177.175522	0.005644
+Sudanese pound	SDG	47.821907	0.020911
+Surinamese dollar	SRD	7.510853	0.133141
+Swazi lilangeni	SZL	14.520602	0.068868
+Swedish Krona	SEK	9.269969	0.107875
+Syrian pound	SYP	517.639835	0.001932
+Tajikistan Ruble	TJS	9.457747	0.105733
+Tanzanian shilling	TZS	2,351.463955	0.000425
+Thai Baht	THB	31.742294	0.031504
+Tongan paĘťanga	TOP	2.249815	0.444481
+Trinidad Tobago Dollar	TTD	6.807419	0.146899
+Tunisian Dinar	TND	3.020409	0.331081
+Turkish Lira	TRY	5.603213	0.178469
+U.A.E Dirham	AED	3.673087	0.272251
+Ugandan shilling	UGX	3,726.201150	0.000268
+Ukrainian Hryvnia	UAH	27.197548	0.036768
+Uruguayan Peso	UYU	33.582236	0.029778
+Uzbekistan Sum	UZS	8,406.840277	0.000119
+Vanuatu vatu	VUV	114.844840	0.008707
+Venezuelan Bolivar	VES	3,301.555624	0.000303
+Vietnamese Dong	VND	23,175.726736	0.000043
+West African CFA Franc	XOF	585.076808	0.001709
+Yemeni rial	YER	250.820769	0.003987
+Zambian kwacha	ZMW	12.230315	0.081764
+

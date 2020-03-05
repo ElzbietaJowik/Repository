@@ -1,0 +1,873 @@
+Butter,81.11,0.06,717,0.85
+Butter oil,99.48,0,876,0.28
+Cheese,28.74,0.5,353,21.4
+Cheese food,24.46,0,331,19.66
+Cheese spread,21.23,7.32,290,16.41
+Cream,10.39,4.13,123,3.13
+Eggnog,4.19,8.05,88,4.55
+Sour dressing,16.57,4.68,178,3.25
+Milk,3.46,0,63,3.33
+Cream substitute,9.97,11.38,136,1
+Dessert topping,39.92,52.54,577,4.9
+Sour cream,19.52,6.63,208,2.4
+Milk substitutes,3.41,0,61,1.75
+Milk shakes,2.7,20.85,119,3.05
+Whey,0.09,5.12,24,0.76
+Yogurt,3.25,4.66,61,3.47
+Egg,9.51,0.37,143,12.56
+Egg substitute,13,21.8,444,55.5
+Cheese substitute,12.22,23.67,248,11.47
+Cheese sauce,14.92,0.19,197,10.33
+USDA Commodity,18.3,0.58,282,27.2
+Parmesan cheese topping,5,1.5,370,40
+KRAFT CHEEZ WHIZ Pasteurized Process Cheese Sauce,21,6.7,276,12
+KRAFT CHEEZ WHIZ LIGHT Pasteurized Process Cheese Product,9.5,8.2,215,16.3
+KRAFT FREE Singles American Nonfat Pasteurized Process Cheese Product,1,6.7,148,22.7
+KRAFT VELVEETA Pasteurized Process Cheese Spread,22,8.1,303,16.3
+KRAFT VELVEETA LIGHT Reduced Fat Pasteurized Process Cheese Product,10.6,8.5,222,19.6
+KRAFT BREAKSTONE'S Reduced Fat Sour Cream,12,6.4,152,4.5
+KRAFT BREAKSTONE'S FREE Fat Free Sour Cream,1.3,7.2,91,4.7
+Reddi Wip Fat Free Whipped Topping,5,16,149,3
+Egg Mix,34.5,2.46,555,35.6
+Cheese product,14.1,8.02,240,17.6
+Protein supplement,17.14,5.71,411,45.71
+Dulce de Leche,7.35,49.74,315,6.84
+Ice cream,13,21.16,222,4.1
+Ice cream sandwich,8.57,18.57,237,4.29
+Ice cream cookie sandwich,7.4,21.3,240,3.7
+Ice cream cone,21.88,25,354,5.21
+Fat free ice cream,0,8.82,129,4.41
+Milk dessert bar,1.47,22.06,147,4.41
+Nutritional supplement for people with diabetes,3.08,2.64,88,4.4
+Ice cream bar,25.26,21.05,358,2.11
+Kefir,0.93,4.61,41,3.79
+Ice cream sundae cone,14,21.26,254,3
+Light ice cream,3.08,18.46,165,1.54
+Spices,8.69,0,263,6.09
+Basil,0.64,0.3,23,3.15
+Dill weed,1.12,0,43,3.46
+Mustard,3.34,0.92,60,3.74
+Salt,0,0,0,0
+Vinegar,0,0.4,21,0
+Thyme,1.68,0,101,5.56
+Vanilla extract,0.06,12.65,288,0.06
+Capers,0.86,0.41,23,2.36
+Horseradish,0.69,7.99,48,1.18
+Rosemary,5.86,0,131,3.31
+Peppermint,0.94,0,70,3.75
+Spearmint,0.73,0,44,3.29
+PACE,0,18.76,188,0
+Seasoning mix,0,0,0,0
+Fat,100,0,902,0
+Lard,100,0,902,0
+Salad dressing,26.18,17.68,355,0.69
+Sandwich spread,34,15.18,389,0.9
+Shortening,100,0,884,0
+Oil,100,0,884,0
+Vegetable oil,100,0,862,0
+Shortening bread,100,0,884,0
+Shortening cake mix,100,0,884,0
+Shortening industrial,100,0,900,0
+Shortening frying (heavy duty),100,0,900,0
+Shortening confectionery,100,0,884,0
+Shortening household soybean (hydrogenated) and palm,100,0,884,0
+Margarine-like,80.32,0,727,0.31
+Fish oil,100,0,902,0
+Meat drippings (lard,98.59,0,889,0
+Animal fat,99.5,0,897,0
+Margarine,80.2,0,714,1.9
+USDA Commodity Food,100,0,884,0
+Margarine-like spread,38.71,0,357,0
+Salad Dressing,34.18,5.38,333,1.53
+Dressing,1.47,17.75,169,1.07
+Mayonnaise,40,0,361,0.37
+Chicken,3.57,0,144,28.04
+Canada Goose,4.02,0,133,24.31
+Duck,39.34,0,404,11.49
+Goose,33.62,0,371,15.86
+Turkey,5.09,0,124,18.18
+Turkey from whole,6.04,0,125,16.51
+Pate de foie gras,43.84,0,462,11.4
+Turkey and gravy,2.63,0,67,5.88
+Turkey breast,3.46,0,126,22.16
+Turkey thigh,8.54,0,157,18.8
+Turkey roast,2.2,0,120,17.6
+Turkey sticks,16.9,0,279,14.2
+Poultry,24.73,0,272,11.39
+Ground turkey,7.66,0,148,19.66
+Chicken patty,20.04,0,292,14.33
+Chicken breast tenders,12.89,0,252,16.35
+USDA Commodity Chicken,5.72,0,162,27.52
+Ruffed Grouse,0.88,0,112,25.94
+Sausage,17.2,2.35,230,15.27
+Blood sausage,34.5,1.29,379,14.6
+Bockwurst,25.87,1.33,301,14.03
+Bologna,26.13,2.05,299,10.91
+Bratwurst,29.18,0,333,13.72
+Braunschweiger (a liver sausage),28.5,0,327,14.5
+Brotwurst,27.8,2.98,323,14.3
+Cheesefurter,29,1.51,328,14.1
+Chicken spread,17.56,0.47,158,18.01
+Chorizo,38.27,0,455,24.1
+Corned beef loaf,6.1,0,153,22.9
+Dutch brand loaf,22.91,0.9,273,12
+Frankfurter,28.3,1.31,316,11.16
+Ham,18.83,0,239,16.06
+Ham salad spread,15.53,0,216,8.68
+Ham and cheese loaf or roll,18.7,0,241,13.6
+Ham and cheese spread,18.53,0,245,16.18
+Headcheese,10.9,0,157,13.83
+Knackwurst,27.7,0,307,11.1
+Lebanon bologna,10.44,0,172,19.03
+Liver cheese,25.6,0,304,15.2
+Liver sausage,28.5,0,326,14.1
+Roast beef,3.69,0.29,115,18.62
+Luncheon meat,30.3,0,334,12.5
+Mortadella,25.39,0,311,16.37
+Olive loaf,16.5,0,235,11.8
+Pastrami,6.21,3.34,139,16.3
+Pate,13.1,0,201,13.45
+Peppered loaf,6.37,4.61,149,17.3
+Pepperoni,46.28,0,504,19.25
+Pickle and pimiento loaf,15.95,8.46,225,11.23
+Polish sausage,28.72,0,326,14.1
+Luxury loaf,4.8,0,141,18.4
+Mother's loaf,22.3,0,282,12.07
+Picnic loaf,16.64,0,232,14.92
+Pork sausage,24.8,0.93,288,15.39
+Pork and beef sausage,36.25,0,396,13.8
+Turkey sausage,10.3,0,204,17
+Poultry salad sandwich spread,13.52,0,200,11.64
+Salami,22.2,1.5,261,12.6
+Smoked link sausage,28.23,0.94,309,11.98
+Thuringer,30.43,0.85,362,17.45
+Honey roll sausage,10.5,0,182,18.58
+Luncheon sausage,20.9,0,260,15.38
+New england brand sausage,7.58,0,161,17.27
+Turkey bacon,16.93,0,226,15.94
+HORMEL Pillow Pak Sliced Turkey Pepperoni,11.52,0,243,30.99
+Liverwurst spread,25.45,1.65,305,12.38
+Roast beef spread,16.28,0.71,223,15.27
+Swisswurst,27.37,0,307,12.69
+Bacon and beef sticks,44.2,0.8,517,29.1
+Yachtwurst,22.6,0,268,14.8
+Beerwurst,22.53,0,276,14
+Chicken breast,0.39,0.2,80,16.8
+Kielbasa,17.6,0,226,13.1
+Oven-roasted chicken breast roll,7.65,0.43,134,14.59
+Macaroni and cheese loaf,14.96,0,228,11.76
+Scrapple,13.87,0.2,213,8.06
+Beef sausage,37.57,0,405,15.5
+Pork and turkey sausage,30.64,0,342,12.05
+Meatballs,22.21,3.47,286,14.4
+Bacon,20,0,253,13.33
+Acerola,0.3,0,32,0.4
+Acerola juice,0.3,4.5,23,0.4
+Apples,0.17,10.39,52,0.26
+Apple juice,0.13,9.62,46,0.1
+Applesauce,0.1,9.39,42,0.17
+Apricots,0.39,9.24,48,1.4
+Apricot nectar,0.09,13.79,56,0.37
+Avocados,14.66,0.66,160,2
+Bananas,0.33,12.23,89,1.09
+Blackberries,0.49,4.88,43,1.39
+Blackberry juice,0.6,7.7,38,0.3
+Cherries,0.73,67.15,333,1.25
+Blueberries,0.33,9.96,57,0.74
+Boysenberries,0.12,0,88,0.99
+Breadfruit,0.23,11,103,1.07
+Carambola,0.33,3.98,31,1.04
+Carissa,1.3,0,62,0.5
+Cherimoya,0.68,12.87,75,1.57
+Crabapples,0.3,0,76,0.4
+Cranberries,0.13,4.27,46,0.46
+Cranberry sauce,0.15,31.75,159,0.9
+Cranberry-orange relish,0.1,0,178,0.3
+Currants,0.41,0,63,1.4
+Custard-apple,0.6,0,101,1.7
+Dates,0.39,63.35,282,2.45
+Elderberries,0.5,0,73,0.66
+Figs,0.3,16.26,74,0.75
+Fruit cocktail,0.05,7.51,32,0.42
+Fruit salad,0.07,0,30,0.35
+Gooseberries,0.58,0,44,0.88
+Goji berries,0.39,45.61,349,14.26
+Grapefruit,0.1,6.98,32,0.63
+Grapefruit juice,0.1,7.2,34,0.58
+Grapes,0.47,0,57,0.81
+Grape juice,0.13,14.2,60,0.37
+Groundcherries,0.7,0,53,1.9
+Guavas,0.95,8.92,68,2.55
+Guava sauce,0.14,5.88,36,0.32
+Jackfruit,0.64,19.08,95,1.72
+Java-plum,0.23,0,60,0.72
+Jujube,0.2,0,79,1.2
+Kiwifruit,0.52,8.99,61,1.14
+Kumquats,0.86,9.36,71,1.88
+Lemons,0.3,2.5,29,1.1
+Lemon juice,0.24,2.52,22,0.35
+Lemon juice from concentrate,0.07,1.53,17,0.45
+Lemon peel,0.3,4.17,47,1.5
+Limes,0.2,1.69,30,0.7
+Lime juice,0.07,1.69,25,0.42
+Litchis,0.44,15.23,66,0.83
+Loganberries,0.31,7.7,55,1.52
+Longans,0.1,0,60,1.31
+Loquats,0.2,0,47,0.43
+Mammy-apple,0.5,0,51,0.5
+Mangos,0.38,13.66,60,0.82
+Mangosteen,0.58,0,73,0.41
+Mango,1.18,66.27,319,2.45
+Melons,0.19,7.86,34,0.84
+Melon balls,0.25,0,33,0.84
+Mulberries,0.39,8.1,43,1.44
+Nectarines,0.32,7.89,44,1.06
+Oheloberries,0.22,0,28,0.38
+Olives,10.68,0,115,0.84
+Oranges,0.12,9.35,47,0.94
+Orange juice,0.2,8.4,45,0.7
+Orange peel,0.2,0,97,1.5
+Orange-grapefruit juice,0.1,10.18,43,0.6
+Tangerines,0.31,10.58,53,0.81
+Tangerine juice,0.2,9.9,43,0.5
+Papayas,0.26,7.82,43,0.47
+Papaya,0.55,52.2,206,0.14
+Papaya nectar,0.15,13.91,57,0.17
+Passion-fruit,0.7,11.2,97,2.2
+Passion-fruit juice,0.05,13.4,51,0.39
+Peaches,0.25,8.39,39,0.91
+Peach nectar,0.02,13.32,54,0.27
+Pears,0.14,9.75,57,0.36
+Pear nectar,0.01,15.16,60,0.11
+Persimmons,0.19,12.53,70,0.58
+Pineapple,0.12,9.85,50,0.54
+Pineapple juice,0.12,9.98,53,0.36
+Pitanga,0.4,0,33,0.8
+Plantains,0.37,15,122,1.3
+Plums,0.28,9.92,46,0.7
+Pomegranates,1.17,13.67,83,1.67
+Prickly pears,0.51,0,41,0.73
+Prunes,0.2,0,105,0.87
+Prune juice,0.03,16.45,71,0.61
+Pummelo,0.04,0,38,0.76
+Quinces,0.1,0,57,0.4
+Raisins,0.46,59.19,302,3.39
+Rambutan,0.21,0,82,0.65
+Raspberries,0.65,4.42,52,1.2
+Rhubarb,0.2,1.1,21,0.9
+Roselle,0.64,0,49,0.96
+Rose-apples,0.3,0,25,0.6
+Sapodilla,1.1,0,83,0.44
+Sapote,0.46,20.14,124,1.45
+Soursop,0.3,13.54,66,1
+Strawberries,0.3,4.89,32,0.67
+Sugar-apples,0.29,0,94,2.06
+Tamarinds,0.6,38.8,239,2.8
+Watermelon,0.15,6.2,30,0.61
+Maraschino cherries,0.21,38.77,165,0.22
+Feijoa,0.42,8.2,61,0.71
+Durian,5.33,0,147,1.47
+Prune puree,0.2,39,257,2.1
+Candied fruit,0.07,80.68,322,0.34
+Abiyuch,0.1,8.55,69,1.5
+Rowal,2,14.1,111,2.3
+Clementines,0.15,9.18,47,0.85
+Guanabana nectar,0.17,13.07,59,0.11
+Guava nectar,0.06,12.95,63,0.09
+Mango nectar,0.06,12.45,51,0.11
+Tamarind nectar,0.12,12.7,57,0.09
+USDA Commodity peaches,0.15,10.61,61,0.56
+USDA Commodity pears,0.19,8.27,51,0.34
+Pomegranate juice,0.29,12.65,54,0.15
+Juice,0.12,10.92,50,0.16
+Nance,1.28,15.66,95,0.56
+Naranjilla (lulo) pulp,0.22,3.74,25,0.44
+Horned melon (Kiwano),1.26,0,44,1.78
+Orange Pineapple Juice Blend,0.08,10.57,51,0.41
+Cranberry juice blend,0.12,9.8,45,0.27
+Ruby Red grapefruit juice blend (grapefruit,0.1,10.3,44,0.5
+Fruit juice smoothie,0.32,9.9,48,0.5
+Pork,60.42,0,585,10.06
+Canadian bacon,2.62,0.9,110,20.31
+HORMEL,3.59,0,106,18.43
+HORMEL ALWAYS TENDER,3.07,3.33,119,18.2
+HORMEL Canadian Style Bacon,4.94,1.43,122,16.88
+Pork loin,9.84,0,172,20.85
+Alfalfa seeds,0.69,0.2,23,3.99
+Amaranth leaves,0.33,0,23,2.46
+Arrowhead,0.29,0,99,5.33
+Artichokes,0.15,0.99,47,3.27
+Asparagus,0.12,1.88,20,2.2
+Balsam-pear (bitter gourd),0.69,0,30,5.3
+Bamboo shoots,0.3,3,27,2.6
+Beans,0.5,0,29,4.2
+Lima beans,0.86,1.48,113,6.84
+Mung beans,0.18,4.13,30,3.04
+Beets,0.17,6.76,43,1.61
+Beet greens,0.13,0.5,22,2.2
+Broadbeans,0.6,0,72,5.6
+Broccoli,0.37,1.7,34,2.82
+Broccoli raab,0.49,0.38,22,3.17
+Brussels sprouts,0.3,2.2,43,3.38
+Burdock root,0.15,2.9,72,1.53
+Butterbur,0.04,0,14,0.39
+Cabbage,0.1,3.2,25,1.28
+Cardoon,0.1,0,17,0.7
+Carrots,0.24,4.74,41,0.93
+Cassava,0.28,1.7,160,1.36
+Cauliflower,0.28,1.91,25,1.92
+Celeriac,0.3,1.6,42,1.5
+Celery,0.17,1.34,16,0.69
+Celtuce,0.3,0,18,0.85
+Chard,0.2,1.1,19,1.8
+Chayote,0.13,1.66,19,0.82
+Chicory,0.1,0,17,0.9
+Chicory greens,0.3,0.7,23,1.7
+Chicory roots,0.2,8.73,72,1.4
+Chives,0.73,1.85,30,3.27
+Chrysanthemum,0.56,0,24,3.36
+Collards,0.61,0.46,32,3.02
+Coriander (cilantro) leaves,0.52,0.87,23,2.13
+Corn,1.35,6.26,86,3.27
+Corn with red and green peppers,0.55,0,75,2.33
+Cornsalad,0.4,0,21,2
+Cowpeas (blackeyes),0.35,3,90,2.95
+Cowpeas,0.3,5.04,44,3.3
+Yardlong bean,0.4,0,47,2.8
+Cress,0.7,4.4,32,2.6
+Cucumber,0.11,1.67,15,0.65
+Dandelion greens,0.7,0.71,45,2.7
+Eggplant,0.18,3.53,25,0.98
+Edamame,4.73,2.48,109,11.22
+Endive,0.2,0.25,17,1.25
+Escarole,0.18,0.23,19,1.15
+Garlic,0.5,1,149,6.36
+Ginger root,0.75,1.7,80,1.82
+Gourd,0.02,0,14,0.62
+Drumstick leaves,1.4,0,64,9.4
+Hyacinth-beans,0.2,4.08,46,2.1
+Jerusalem-artichokes,0.01,9.6,73,2
+Jew's ear,0.04,0,25,0.48
+Pepeao,0.44,0,298,4.82
+Jute,0.25,0,34,4.65
+Kale,0.93,2.26,49,4.28
+Kanpyo,0.56,0,258,8.58
+Mushrooms,0.49,2.38,34,2.24
+Kohlrabi,0.1,2.6,27,1.7
+Lambsquarters,0.8,0,43,4.2
+Leeks,0.3,3.9,61,1.5
+Lentils,0.55,0,106,8.96
+Lettuce,0.22,0.94,13,1.35
+Lotus root,0.1,0,74,2.6
+Mountain yam,0.1,0.31,67,1.34
+Mustard greens,0.42,1.32,27,2.86
+Mustard spinach,0.3,0,22,2.2
+New Zealand spinach,0.2,0.29,14,1.5
+Okra,0.19,1.48,33,1.93
+Onions,0.1,4.24,40,1.1
+Onion rings,14.1,0,258,3.15
+Parsley,0.79,0.85,36,2.97
+Parsnips,0.3,4.8,75,1.2
+Peas,0.2,4,42,2.8
+Peas and carrots,0.27,0,38,2.17
+Peas and onions,0.38,0,51,3.28
+Peppers,0.1,3.12,21,0.9
+Pigeonpeas,1.64,3,136,7.2
+Poi,0.14,0.39,112,0.38
+Pokeberry shoots,0.4,0,23,2.6
+Potatoes,0.09,0.82,77,2.05
+Potato puffs,8.71,0.28,178,1.93
+Potato flour,0.34,3.52,357,6.9
+Potato salad,8.2,0,143,2.68
+Pumpkin flowers,0.07,0,15,1.03
+Pumpkin leaves,0.4,0,19,3.15
+Pumpkin,0.1,2.76,26,1
+Pumpkin pie mix,0.13,0,104,1.09
+Purslane,0.36,0,20,2.03
+Radishes,0.1,1.86,16,0.68
+Rutabagas,0.16,4.46,37,1.08
+Salsify,0.2,0,82,3.3
+Sauerkraut,0.14,1.78,19,0.91
+Seaweed,0.03,0.28,26,0.54
+Sesbania flower,0.04,0,27,1.28
+Soybeans,6.8,0,147,12.95
+Spinach,0.39,0.42,23,2.86
+Squash,0.27,2.88,19,1.01
+Succotash,1.02,0,99,5.03
+Swamp cabbage,0.2,0,19,2.6
+Swamp cabbage (skunk  cabbage),0.24,0,20,2.08
+Sweet potato leaves,0.51,0,42,2.49
+Sweet potato,0.05,4.18,86,1.57
+Taro,0.2,0.4,112,1.5
+Taro leaves,0.74,3.01,42,4.98
+Taro shoots,0.09,0,11,0.92
+Tomatoes,0.2,4,23,1.2
+Tomato juice,0.29,2.58,17,0.85
+Tomato products,0.47,12.18,82,4.32
+Tomato powder,0.44,43.9,302,12.91
+Tree fern,0.07,0,40,0.29
+Turnips,0.1,3.8,28,0.9
+Turnip greens,0.3,0.81,32,1.5
+Turnip greens and turnips,0.19,0,21,2.46
+Vegetable juice cocktail,0.31,2.84,22,0.93
+Vegetables,0.25,0,36,1.42
+Vinespinach,0.3,0,19,1.8
+Waterchestnuts,0.1,4.8,97,1.4
+Watercress,0.1,0.2,11,2.3
+Waxgourd,0.2,0,13,0.4
+Winged beans,0.87,0,49,6.95
+Winged bean leaves,1.1,0,74,5.85
+Winged bean tuber,0.9,0,148,11.6
+Yam,0.17,0.5,118,1.53
+Yambean (jicama),0.09,1.8,38,0.72
+Borage,0.7,0,21,1.8
+Dock,0.7,0,22,2
+Eppaw,1.8,0,150,4.6
+Drumstick pods,0.2,0,37,2.1
+Shallots,0.5,38.16,348,12.3
+Carrot juice,0.15,3.91,40,0.95
+Corn pudding,5.04,6.59,131,4.42
+Spinach souffle,12.95,1.85,172,7.89
+Potato pancakes,14.76,1.79,268,6.08
+Radish seeds,2.53,0,43,3.81
+Carrot,1.49,38.82,341,8.1
+Arrowroot,0.2,0,65,4.24
+Chrysanthemum leaves,0.56,0,24,3.36
+New zealand spinach,0.17,0.25,12,1.3
+Swamp cabbage (skunk cabbage),0.24,0,20,2.08
+Winged bean,0.66,0,37,5.31
+Catsup,0.1,21.27,101,1.04
+Pickles,0.3,1.07,12,0.5
+Mushroom,0.34,1.98,22,3.09
+Pimento,0.3,2.71,23,1.1
+Pickle relish,0.46,0,91,1.5
+Radicchio,0.25,0.6,23,1.43
+Tomatillos,1.02,3.93,32,0.96
+Fennel,0.2,3.93,31,1.24
+Arugula,0.66,2.05,25,2.58
+Hearts of palm,0.62,0,28,2.52
+Nopales,0.09,1.15,16,1.32
+Lemon grass (citronella),0.49,0,99,1.82
+Grape leaves,2.12,6.3,93,5.6
+Pepper,0.45,1.95,27,1.66
+Epazote,0.52,0,32,0.33
+Fireweed,2.75,0,103,4.71
+Malabar spinach,0.78,0,23,2.98
+Fungi,0.73,0,284,9.25
+Wasabi,0.63,0,109,4.8
+Yautia (tannier),0.4,0,98,1.46
+Fiddlehead ferns,0.4,0,34,4.55
+Seeds,5.59,0,191,7.4
+Nuts,23.86,0,387,6.15
+Beef,2.69,0,117,23.07
+Alcoholic beverage,0,0,43,0.46
+Beverages,1.04,6.25,38,0.42
+Alcoholic Beverage,0,0,83,0.07
+Carbonated beverage,0,13.3,51,0
+Cocoa mix,15,60,400,3
+Cranberry juice cocktail,0.1,11.87,54,0
+Alcoholic beverages,0,0,58,0.9
+Lemonade,0.04,3.5,14,0
+Limeade,0,13.27,52,0
+Malt beverage,0.12,8.05,37,0.21
+Shake,6.52,13.63,148,3.37
+Strawberry-flavor beverage mix,0.2,95.45,389,0.1
+Water,0,0,0,0
+Whiskey sour mix,0.1,0,84,0.1
+Fish,4.84,0,131,20.35
+Crustaceans,0.6,0,84,18.29
+Mollusks,0.76,0,105,17.1
+Salmon,7.17,0,153,20.63
+Yokan,0.12,0,260,3.29
+Broadbeans (fava beans),1.53,5.7,341,26.12
+Carob flour,0.65,49.08,222,4.62
+Chickpeas (garbanzo beans,6.04,10.7,378,20.47
+Chili with beans,3.76,1.65,103,6.12
+Hyacinth beans,1.69,0,344,23.9
+Lupins,9.74,0,371,36.17
+Mothbeans,1.61,0,343,22.94
+Noodles,0.06,0,351,0.16
+Mungo beans,1.64,0,341,25.21
+Peanuts,49.24,4.72,567,25.8
+Peanut butter,49.94,8.41,589,24.06
+Peanut flour,0.55,8.22,327,52.2
+Pigeon peas (red gram),1.49,0,343,21.7
+Refried beans,2.01,0.54,90,4.98
+Meat extender,2.97,0,311,41.71
+Miso,6.01,6.2,198,12.79
+Natto,11,4.89,211,19.4
+Tempeh,10.8,0,192,20.29
+Soy flour,20.65,7.5,434,37.81
+Soy meal,2.39,0,337,49.2
+Soymilk,1.75,3.99,54,3.27
+Soy protein concentrate,0.46,20,328,63.63
+Soy protein isolate,3.39,0,335,88.32
+Soy sauce made from soy and wheat (shoyu),0.57,0.4,53,8.14
+Soy sauce made from soy (tamari),0.1,1.7,60,10.51
+Soy sauce made from hydrolyzed vegetable protein,0.51,1.3,60,7
+Tofu,4.17,0.6,78,9.04
+Okara,1.73,0,76,3.52
+Yardlong beans,1.31,0,347,24.33
+Hummus,8.59,0.27,177,4.86
+Falafel,17.8,0,333,13.31
+Veggie burgers or soyburgers,6.3,1.07,177,15.7
+Peanut spread,54.89,6.35,650,24.8
+Chickpea flour (besan),6.69,10.85,387,22.39
+MORI-NU,2.7,1.31,55,4.8
+Frijoles rojos volteados (Refried beans,6.93,0,144,5
+Campbell's Brown Sugar And Bacon Flavored Baked Beans,1.92,10,123,3.85
+Campbell's Pork and Beans,1.15,6.15,108,4.62
+Vitasoy USA,1.7,0.2,54,8.3
+Soymilk (all flavors),1.61,0.41,33,2.86
+Soymilk (All flavors),1.99,2.53,45,2.94
+SILK Plain,1.65,2.47,41,2.88
+SILK Vanilla,1.44,2.88,41,2.47
+SILK Chocolate,1.44,7.82,58,2.06
+SILK Light Plain,0.82,2.47,29,2.47
+SILK Light Vanilla,0.82,2.88,33,2.47
+SILK Light Chocolate,0.62,7.82,49,2.06
+SILK Plus Omega-3 DHA,2.06,2.47,45,2.88
+SILK Plus for Bone Health,1.44,2.88,41,2.47
+SILK Plus Fiber,1.44,2.88,41,2.47
+SILK Unsweetened,1.65,0.41,33,2.88
+SILK Very Vanilla,1.65,6.58,53,2.47
+SILK Nog,1.64,9.84,74,2.46
+SILK Chai,1.44,5.76,53,2.47
+SILK Mocha,1.44,7.41,58,2.06
+SILK Coffee,1.44,9.47,62,2.06
+SILK Vanilla soy yogurt (family size),1.76,10.57,79,2.64
+SILK Vanilla soy yogurt (single serving size),1.76,10.59,88,2.94
+SILK Plain soy yogurt,1.76,5.29,66,2.64
+SILK Strawberry soy yogurt,1.18,12.94,94,2.35
+SILK Raspberry soy yogurt,1.18,12.94,88,2.35
+SILK Peach soy yogurt,1.18,14.71,94,2.35
+SILK Black Cherry soy yogurt,1.18,11.76,88,2.35
+SILK Blueberry soy yogurt,1.18,12.35,88,2.35
+SILK Key Lime soy yogurt,1.18,12.35,88,2.35
+SILK Banana-Strawberry soy yogurt,1.18,10.59,88,2.35
+SILK Original Creamer,6.67,0,100,0
+SILK French Vanilla Creamer,6.67,20,133,0
+SILK Hazelnut Creamer,6.67,20,133,0
+Vitasoy USA Organic Nasoya,3.5,0.3,70,8.76
+Vitasoy USA Nasoya,1.1,0,43,8.21
+Vitasoy USA Organic Nasoya Sprouted,5.9,1.1,115,13.24
+Vitasoy USA Azumaya,4.6,0.5,88,10.07
+HOUSE FOODS Premium Soft Tofu,2.71,0.53,59,6.38
+HOUSE FOODS Premium Firm Tofu,4.19,0.4,85,10.92
+Peanut butter with omega-3,54.17,3.11,608,24.47
+Soy sauce,0.31,5.63,90,8.19
+LOMA LINDA Little Links,13.5,0.8,221,19.4
+LOMA LINDA Low Fat Big Franks,4.7,0.3,154,23.1
+LOMA LINDA Tender Rounds with Gravy,5.6,1,145,16.3
+LOMA LINDA Swiss Stake with Gravy,6.2,0.9,138,10.2
+LOMA LINDA Vege-Burger,1.2,0.8,114,22.2
+LOMA LINDA Redi-Burger,2.8,1.2,146,21.9
+LOMA LINDA Tender Bits,4.6,0.6,135,15.1
+LOMA LINDA Linketts,11.8,0.3,209,21.3
+WORTHINGTON Chili,4.5,1.3,126,10.4
+WORTHINGTON Choplets,1,0.4,103,19.4
+WORTHINGTON Diced Chik,0.7,0.1,80,14.7
+WORTHINGTON FriChik Original,10.3,0.1,160,13.4
+WORTHINGTON Low Fat Fri Chik,2.7,0,102,14.3
+WORTHINGTON Low Fat Veja-Links,4.8,0.7,123,15.8
+WORTHINGTON Multigrain Cutlets,1.5,0.2,117,23.29
+WORTHINGTON Prime Stakes,7.2,0.3,135,10.2
+WORTHINGTON Saucettes,15.2,0.2,219,15
+WORTHINGTON Super Links,15.5,0.6,219,14.5
+WORTHINGTON Vegetable Skallops,1.2,0.3,109,19.9
+WORTHINGTON Vegetable Steaks,1.2,0.5,113,20.7
+WORTHINGTON Vegetarian Burger,2.9,0.6,124,18.6
+WORTHINGTON Veja-Links,8.9,0.5,155,14.6
+WORTHINGTON Chic-Ketts,9.7,0.1,200,23.6
+WORTHINGTON Meatless Chicken Roll,8,0.8,154,16.1
+WORTHINGTON Meatless Corned Beef Roll,14.5,2.1,245,18.6
+WORTHINGTON Dinner Roast,13.5,1,213,16
+WORTHINGTON FriPats,9.1,1.4,209,23.7
+WORTHINGTON Prosage Links,4.7,0.8,143,20.2
+WORTHINGTON Prosage Roll,17.6,0.2,261,19.6
+WORTHINGTON Smoked Turkey Roll,16.1,2.4,251,18.5
+WORTHINGTON Stakelets,10.4,1.2,211,19.7
+WORTHINGTON Stripples,26.6,0.8,346,12.4
+WORTHINGTON Wham (roll),11.3,3.2,196,17.8
+MORNINGSTAR FARMS Breakfast Pattie with Organic Soy,8.3,2.2,220,23.7
+MORNINGSTAR FARMS Breakfast Bacon Strips,26.6,0.8,346,12.4
+MORNINGSTAR FARMS Breakfast Sausage Links,6.1,1,159,19.2
+MORNINGSTAR FARMS Grillers Original,9.3,1.2,213,23.9
+MORNINGSTAR FARMS Grillers Prime,13.2,0.3,238,24
+MORNINGSTAR FARMS Asian Veggie Patties,6.2,5,158,11.4
+MORNINGSTAR FARMS Mushroom Lover's Burger,8.2,0.5,168,14.3
+MORNINGSTAR FARMS Tomato & Basil Pizza Burger,8.6,2.6,161,15.5
+MORNINGSTAR FARMS Buffalo Wings,11,2.8,232,14.1
+MORNINGSTAR FARMS Chik'n Nuggets,10,2.2,221,14.4
+MORNINGSTAR FARMS Chik Patties,7,2,197,11.8
+MORNINGSTAR FARMS Italian Herb Chik'n Pattie,7,1.5,236,13.6
+MORNINGSTAR FARMS Corn Dog,3.5,11,208,11.2
+MORNINGSTAR FARMS Corn Dog Mini,4.7,8,219,13.2
+MORNINGSTAR FARMS Sausage Style Recipe Crumbles,4.6,1.4,159,20.2
+GARDENBURGER Black Bean Chipotle Burger,3.9,3.6,133,6.5
+GARDENBURGER Original,4.6,0.6,155,7.2
+GARDENBURGER Flame Grilled Burger,4.4,0.4,122,15.2
+GARDENBURGER Savory Portabella Veggie Burger,3.3,1.2,138,5.9
+GARDENBURGER Sun-Dried Tomato Basil Burger,3.6,2.6,137,5.5
+GARDENBURGER Veggie Medley Burger,3.6,2,121,4.1
+MORNINGSTAR FARMS Breakfast Sausage Patties Maple Flavored,7.2,5.9,222,26.3
+MORNINGSTAR FARMS Chik'n Grill Veggie Patties,4.8,0.2,118,12.8
+MORNINGSTAR FARMS BBQ Riblets,2.3,17.2,150,11.4
+WORTHINGTON Leanies,16.5,1.2,251,19.5
+MORNINGSTAR FARMS California Turk'y Burger,7.7,1.8,155,14.9
+MORNINGSTAR FARMS Hot and Spicy Veggie Sausage Patties,7.4,0.2,185,21.8
+MORNINGSTAR FARMS Lasagna with Veggie Sausage,2.3,1.7,96,7.1
+MORNINGSTAR FARMS Grillers Quarter Pound Veggie Burger,10.5,0.6,219,22.8
+MORNINGSTAR FARMS Sesame Chik'n Entree,3.5,6,116,5.3
+MORNINGSTAR FARMS Grillers Chik'n Veggie Patties,4.8,0.2,118,12.8
+MORNINGSTAR FARMS Meal Starters Veggie Meatballs,5.8,1.1,158,17.7
+MORNINGSTAR FARMS Breakfast Biscuit Sausage,8.1,4,257,9.3
+MORNINGSTAR FARMS Mediterranean Chickpea,6.5,1.1,200,15.5
+MORNINGSTAR FARMS Buffalo Chik Patties,12.8,3,255,12.1
+MORNINGSTAR FARMS Chik Patties Original,9.1,2,197,11.2
+MORNINGSTAR FARMS Breakfast Pattie,8.3,2.2,195,23.7
+MORNINGSTAR FARMS Roasted Garlic & Quinoa Burger,12.1,2.1,192,10.7
+MORNINGSTAR FARMS Parmesan Garlic Wings,8.6,1.3,227,14.2
+MORNINGSTAR FARMS Breakfast Sandwich Veggie Sausage Egg & Cheese English Muffin,9.4,1.1,205,14.3
+MORNINGSTAR FARMS Breakfast Sandwich Veggie Scramble & Cheese English Muffin,4.8,0.6,149,10.4
+MORNINGSTAR FARMS Chipotle Black Bean Crumbles,4.1,1.4,122,14.4
+MORNINGSTAR FARMS Garden Veggie Nuggets,12.2,3.5,197,9.6
+MORNINGSTAR FARMS Spicy Black Bean Enchilada Entree,5.2,1.8,123,5.8
+MORNINGSTAR FARMS Spicy Indian Veggie Burger,11.6,2.2,189,9.2
+MORNINGSTAR FARMS Tuscan Greens & Beans,6.3,2.3,112,5.9
+Veal,4.63,0,134,21.7
+Lamb,21.59,0,267,16.88
+Game meat,2.03,0,114,22.38
+Bison,8.62,0,179,25.45
+Goat,2.31,0,109,20.6
+Game meat ,15.93,0,223,18.67
+Bagels,1.32,8.43,264,10.56
+Biscuits,11.03,3.48,338,6.2
+Bread,10.5,0,326,4.3
+Bread crumbs,5.3,6.2,395,13.35
+Bread sticks,9.5,1.26,412,12
+Bread stuffing,3.4,8.27,386,11
+Cake,0.8,0,258,5.9
+Coffeecake,15.2,0,339,7
+Cheesecake commercially prepared,22.5,21.8,321,5.5
+Cheesecake prepared from mix,12.7,0,274,5.5
+Cookies,16.3,36.61,405,4.8
+Puff pastry,38.5,0.75,558,7.4
+Crackers,22.74,4.53,489,10.93
+Cracker meal,1.7,0.33,383,9.3
+Cream puff shell,25.9,0.25,360,9
+Croissants,21,11.26,406,8.2
+Croutons,6.6,0,407,11.9
+Danish pastry,22.4,19.78,403,7
+Doughnuts,24.93,18.15,434,5.31
+English muffins,1.69,3.53,227,8.87
+French toast,6.1,0,213,7.4
+Hush puppies,13.5,2.03,337,7.7
+Ice cream cones,6.9,6,417,8.1
+Muffins,11.4,0,296,6.9
+Pancakes plain,6.83,8.32,233,5.23
+Pancakes,3.1,16.03,368,9.77
+Pie,11,15.65,237,1.9
+Pie crust,31.4,0,518,6.9
+Phyllo dough,6,0.18,299,7.1
+Popovers,4.3,0,371,10.4
+Rolls,6.47,5.55,310,10.86
+Strudel,11.2,25.75,274,3.3
+Sweet rolls,18.3,0,360,7.1
+Taco shells,21.79,1.5,476,6.41
+Toaster pastries,7.98,27.24,370,4.06
+Tortillas,2.85,0.88,218,5.7
+Waffles,9.7,4.91,285,6.47
+Wonton wrappers (includes egg roll wrappers),1.5,0,291,9.8
+Leavening agents,0,0,53,0
+Breakfast tart,5.99,4.87,372,3.99
+Toaster Pastries,13.3,30.9,412,4.6
+KELLOGG,8,10,245,5.3
+KELLOGG'S,3.5,4.5,229,6.3
+KELLOGG'S EGGO Lowfat Blueberry Nutri-Grain Waffles,2.83,8.89,208,5.95
+ARCHWAY Home Style Cookies,20.92,1.26,442,5.54
+Artificial Blueberry Muffin Mix,8.7,0,407,4.7
+KRAFT,4.1,10.1,381,12.6
+GEORGE WESTON BAKERIES,5.1,0,390,13.3
+KEEBLER,16.6,26.5,465,7.1
+CONTINENTAL MILLS,10.3,40,418,5.6
+MCKEE BAKING,32.8,34,548,8
+MARTHA WHITE FOODS,6.16,54.76,407,4.42
+MISSION FOODS,6,0,287,8.7
+NABISCO,10,23,424,6.99
+PILLSBURY,2.79,4.46,236,6.4
+PILLSBURY GRANDS,11.34,4.6,293,6.16
+PILLSBURY Golden Layer Buttermilk Biscuits,13.24,5.88,307,5.88
+KRAFT FOODS,3.7,0,377,6.1
+HEINZ,6.9,16.8,241,4.4
+INTERSTATE BRANDS CORP,4.15,11.06,273,8.07
+GENERAL MILLS,8.1,43.9,413,3.8
+Waffle,9.49,4.41,309,7.42
+Muffin,4.22,27.05,255,4.23
+Pie Crust,24.83,18.13,501,5.1
+Tostada shells,23.38,0,474,6.15
+Keikitos (muffins),25.24,25.81,467,6.81
+Pan Dulce,16.11,21.86,445,8.81
+Pastry,18.5,17,379,5.48
+Garlic bread,16.61,3.69,350,8.36
+Cinnamon buns,26.61,25.7,452,4.45
+Cream puff,18.52,22.05,334,4.41
+Focaccia,7.89,1.75,249,8.77
+KASHI,10.4,16.1,398,8.7
+AUSTIN,24.5,14.6,495,7.9
+BARBARA DEE,26,35.8,515,3.9
+BEAR NAKED,16.9,35.2,423,6.6
+SCHIFF,14.29,36.4,422,16.8
+Candies,28.57,55.74,525,5.71
+Snacks,25.6,9,410,33.2
+Fruit syrup,0,53,341,0
+Topping,44.1,47.06,609,2.94
+Syrup,0.02,65,261,0
+Baking chocolate,47.7,0,472,12.1
+Ice creams,4.83,22.12,180,4.78
+Desserts,4.03,23.15,145,4.53
+Sherbet,2,24.32,144,1.1
+Syrups,0.09,72.25,291,0
+Puddings,1.7,0,105,2.76
+Chocolate-flavored hazelnut spread,29.73,54.05,541,5.41
+Toppings,0.1,27.38,254,0.2
+Chewing gum,0.3,66.08,360,0
+Cocoa,13.7,1.75,228,19.6
+Egg custards,6.4,0,410,6.9
+Gelatin desserts,0,86.04,381,7.8
+Gelatins,0.1,0,335,85.6
+Flan,0,0,348,0
+Rennin,2.06,0,85,3.24
+Frozen novelties,0.1,0,24,0.5
+Frostings,17.6,57.7,397,1.1
+Frozen yogurts,5.6,24,159,4
+Fruit butters,0.3,35.3,173,0.39
+Honey,0,82.12,304,0.3
+Jams and preserves,0.07,48.5,278,0.37
+Jellies,0.02,51.22,266,0.15
+Marmalade,0,60,246,0.3
+Molasses,0.1,74.72,290,0
+Pectin,0.3,0,325,0.3
+Pie fillings,0.1,13.8,100,0.1
+Pudding,1.12,13.51,109,0.65
+Sugars,0,97.02,380,0.12
+Sweeteners,0,80.7,365,2.17
+Snack,35.28,0.76,545,4.62
+Tortilla chips,5.7,0.67,415,11
+Cheese puffs and twists,12.1,7.29,432,8.5
+Popcorn,1.4,64.68,381,2
+Potato chips,20.8,0.22,487,7.1
+Chocolate,31.28,47.9,546,4.88
+Sugar,0,99.19,399,0
+Sweetener,0.45,68.03,310,0.09
+Jams,0,42,212,0
+Amaranth grain,7.02,1.69,371,13.56
+Arrowroot flour,0.1,0,357,0.3
+Barley,2.3,0.8,354,12.48
+Buckwheat,3.4,0,343,13.25
+Buckwheat groats,2.71,0,346,11.73
+Buckwheat flour,3.1,2.6,335,12.62
+Bulgur,1.33,0.41,342,12.29
+Corn grain,4.74,0.64,365,9.42
+Corn bran,0.92,0,224,8.36
+Corn flour,3.86,0.64,361,6.93
+Cornmeal,3.59,0.64,362,8.12
+Cornstarch,0.05,0,381,0.26
+Couscous,0.64,0,376,12.76
+Hominy,0.88,1.82,72,1.48
+Millet,4.22,0,378,11.02
+Oat bran,7.03,1.45,246,17.3
+Quinoa,6.07,0,368,14.12
+Rice,3.2,0.66,367,7.54
+Oats,6.9,0,389,16.89
+Rice bran,20.85,0.9,316,13.35
+Rice flour,1.42,0.12,366,5.95
+Rye grain,1.63,0.98,338,10.34
+Rye flour,2.22,2.31,325,15.91
+Semolina,1.05,0,360,12.68
+Sorghum grain,3.46,2.53,329,10.62
+Tapioca,0.02,3.35,358,0.19
+Triticale,2.09,0,336,13.05
+Triticale flour,1.81,0,338,13.18
+Wheat,1.92,0.41,329,15.4
+Wheat bran,4.25,0.41,216,15.55
+Wheat germ,9.72,0,360,23.15
+Wheat flour,2.5,0.41,340,13.21
+Wild rice,1.08,2.5,357,14.73
+Pasta,2.08,0,357,7.46
+Macaroni,1.04,0,367,13.14
+Spaghetti,1.57,2.72,372,13.35
+Wheat flours,1.66,0.31,361,11.98
+Barley flour or meal,1.6,0.8,345,10.5
+Barley malt flour,1.84,0.8,361,10.28
+Oat flour,9.12,0.8,404,14.66
+Rice noodles,0.56,0.12,364,5.95
+Spelt,2.43,6.82,338,14.57
+Teff,2.38,1.84,367,13.3
+Millet flour,4.25,1.66,382,10.75
+Sorghum flour,3.34,1.94,359,8.43
+Beef composite,9.16,0,203,28.73
+Formulated bar,13.12,32.86,396,24.29
+Pretzels,3.1,0.25,345,8.2
+Formulated Bar,15.17,15.17,412,30.34
+Rice crackers,5,0,416,10
+Soup,0.61,0.09,27,1.16
+CAMPBELL'S CHUNKY Soups,1.02,0.41,49,2.86
+CAMPBELL'S Red and White,1.19,1.59,71,3.17
+CAMPBELL'S Homestyle Microwaveable Bowls,1.02,1.63,41,2.45
+CAMPBELL'S Homestyle Harvest Tomato with Basil Soup,0.41,6.53,45,0.82
+CAMPBELL'S Homestyle HEALTHY REQUEST Chicken with Whole Grain Pasta Soup,0.82,0.32,40,3.8
+CAMPBELL'S Soup on the GO,0.66,0.66,20,0.98
+CAMPBELL'S Soup on the Go,0,5.57,39,0.98
+PREGO Pasta,1.15,7.7,54,1.54
+CAMPBELL'S,1.98,0.25,53,1.1
+Sauce,0.13,30.54,245,0.36
+Dip,9.51,1.95,143,3.14
+Gravy,2.57,0,46,0.67
+HEALTHY REQUEST Tomato juice,0,3.7,21,0.82
+Sweet Potatoes,8.92,12.9,182,2.16
+Sweet Potato puffs,3.58,7.65,161,1.36
+Vegetable smoothie,0.07,6.05,28,0.8
+Vegetable juice,0.04,5.37,31,0.49
+Creamy dressing,14,5.65,160,1.5
+Imitation cheese,32,1,390,25
+Babyfood,0.8,13.28,89,2.5
+Turkey ham,3.8,0,124,19.6
+Milk dessert,1,37.7,167,4.3
+Whipped topping,13.1,23.6,224,3
+Granola bar,31.2,23.63,536,9.6
+Vegetable oil-butter spread,53,0,465,0
+Turkey and pork sausage,23,0,307,22.7
+Pork sausage rice links,37.63,0,407,13.7
+Papad,3.25,0,371,25.56
+Rice cake,4.3,0.88,392,7.1
+Cereals ready-to-eat,3.33,36.13,400,7.1
+Gums,0.5,0,332,4.6
+Fluid replacement,0,2.45,10,0
+Beverage,2.6,51.3,329,23.5
+Breakfast bars,17.6,27.52,464,9.8
+Vermicelli,0.1,17.44,331,0.1
+Luncheon slices,11.11,2.22,189,17.78
+Vegetarian fillets,18,0.8,290,23
+Vegetarian meatloaf or patties,9,1.2,197,21
+Bacon bits,25.9,0,476,32
+Butter replacement,1,5.3,373,2
+Tomato sauce,0.3,3.56,24,1.2
+Whipped cream substitute,6,10.6,100,0.9
+Quail,14.1,0,227,25.1
+Pheasant,12.1,0,239,32.4
+Eggs,5.6,7.5,131,13.1
+Dove,13,0,213,23.9
+Soybean,8.1,1.6,151,12.5
+Tomato and vegetable juice,0.1,3.28,22,0.6
+Cranberry juice,0.13,12.1,46,0.39
+Yeast extract spread,0.9,1.6,185,23.88
+Tofu yogurt,1.8,1.24,94,3.5
+Jellyfish,1.4,0,36,5.5
+Breakfast bar,7.5,35.1,377,4.4
+Mayonnaise dressing,77.8,0.3,688,0
+Celery flakes,2.1,35.9,319,11.3
+Vital wheat gluten,1.85,0,370,75.16
+Frog legs,0.3,0,73,16.4
+szama,200.0,637.0,55.0,0.0
+Breakfast,1200.0,4694.0,267.0,0.0
