@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Title</title>
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<style type="text/css">
+		.error {
+			margin: 0.25em 0.25em 0.25em 0.25em;
+			padding: 0.25em 0.25em 0.25em 0.25em;
+			border: 1px solid red;
+			background-color: rgba(255, 0, 0, 0.5);
+		}
+		#myform{
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+	<p>
+		Czas pisania zadania : 90 minut.
+		Rozwiązania należy zwrócić przez platformę MS Teams.
+		Należy załączyć rozwiązanie w formie pliku JavaScript o nazwie
+		<em>login_script.js</em>.
+	</p>
+	<p>
+		Proszę o zamieszenie następującego oświadczenia w komentarzu na początku przesyłanego pliku:
+		<q>Potwierdzam samodzielność wykonania przesłanej pracy oraz 
+			niekorzystanie przeze mnie z niedozwolonych źródeł</q>.<br>
+		Prace bez oświadczenia nie będą sprawdzane.
+	</p>
+	<ul>
+		<li> (2 pkt) Naciśnięcie przycisku <em>Start</em> odblokowuje formularz,</li>
+		<li> (2 pkt) Imię musi zaczynać się z dużej litery i zawierać tylko litery,</li>
+		<li> (2 pkt) Pole Login uzupełniane jest na podstawie poporawnego imienia i zawiera tylko duże litery, </li>
+		<li> (4 pkt) Hasło <strong>nie może</strong> zawierać liter które ma imię,</li>
+		<li> (4 pkt) Hasło musi mieć conajmniej 8 znaków i składać się przynajmniej z:
+			jednej małej litery, jednej dużej litery i jednej cyfry,</li>
+		<li> (2 pkt) Tło pola tekstowego zależy od poprawności wpisanej treści,</li>
+		<li> (6 pkt) Informacje o błędach dotyczących hasła sa dynamicznie pokazywane jako element label po prawej
+			stronie	hasła,</li>
+		<li> (3 pkt) Poniżej ramki dodaj licznik czasu od naciśnięca przycisku, licznik zatrzyma się po pierwszym
+			poprawnym uzupełnieniu pól (nie ma potrzeby restartowania w przypadku zmiany na niepopoprawne wartości).
+		</li>
+		<br>
+		Można korzystać z biblioteki jQuery.<br>
+		<strong>Wskazówka 1:</strong> użyj kilku wyrażeń regularnych.<br>
+		<strong>Wskazówka 2:</strong> użyj zdarzeń związanych z klawiaturą.
+	</ul>
+	<button id="startButton" onclick="unlockForm();">Start</button>
+	<form>
+		<fieldset id="myform" disabled>
+			<legend>Wpisz poprawne hasło</legend>
+			<label for="name">Imię</label> <input type="text" name="name" id="name" onchange="validateName(); fillLogin();" /> <br />
+			<label for="login">Login</label> <input type="text" name="login" id="login" disabled /> <br />
+			<label for="password">Hasło</label> <input type="password" name="password" id="password" onchange="validatePassword();" />
+		</fieldset>
+	</form>
+</body>
+
+</html>

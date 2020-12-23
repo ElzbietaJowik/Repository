@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- odwołanie do arkusza transformacji -->
+<?xml-stylesheet type="text/xsl" href="transformacja_menu.xsl"?>
+
+<!-- Maybe it is a little hard to understand, but XML does not DO anything.
+    XML is just information wrapped in tags.
+    There must be written a piece of software to send, receive, store, or display it
+    
+    XML was designed to carry data - with focus on what data is
+    HTML was designed to display data - with focus on how data looks
+    XML tags are not predefined like HTML tags are
+
+    Syntax:
+        <root>
+        <child>
+            <subchild>.....</subchild>
+        </child>
+        </root> 
+    Only one root element in the document can be accepted.
+-->
+
+<breakfast_menu>
+    <food>
+        <name>Belgian Waffles</name>
+        <price>$5.95</price>
+        <description>
+            Two of our famous Belgian Waffles with plenty of real maple syrup
+        </description>
+        <calories>650</calories>
+    </food>
+    <food>
+        <name>French Toast</name>
+        <price>$4.50</price>
+        <description>
+            Thick slices made from our homemade sourdough bread
+        </description>
+        <calories>600</calories>
+    </food>
+    <food>
+        <name>Homestyle Breakfast</name>
+        <price>$6.95</price>
+        <description>
+            Two eggs, bacon or sausage, toast, and our ever-popular hash browns
+        </description>
+        <calories>950</calories>
+    </food>
+</breakfast_menu>

@@ -1,0 +1,111 @@
+html {
+background-color: #cc7a00;
+}
+body {
+background-color: pink;
+background-image: url("./img/background.png");
+background-size: 50px 50px;
+background-position: 80%;
+background-repeat: repeat-y;
+margin: 20px 20px 120px 20px;
+border: 3px dotted black;
+}
+header {
+background-color: #ff5050;
+border-style: hidden solid hidden solid;
+border-color: black red red black;
+border-width: 0 15px 0 15px;
+margin: 30px 30px 0 30px;
+text-align: center;
+}
+h4 {
+border-top-style: dashed;
+border-color: violet;
+border-width: 3px;
+}
+#yellow-background {
+background-color: yellow;
+z-index: 0;
+margin: 20px 20px 20px 20px;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+div.zwierzatko {
+border: 3px dashed black;
+text-align: justify;
+padding: 2em;
+border-radius: 25px;
+background-color: white;
+margin: 0 80px 2em 80px;
+z-index: 1;
+}
+/*div h3 {
+padding-bottom: 5em;} */
+div img {
+width: 75px;
+/*padding-top: 5em;*/
+float: left;
+}
+#oferta {
+text-transform: capitalize;
+text-align: center;
+}
+a {
+color: green;
+text-decoration: none;
+}
+a:hover {
+color: black;
+}
+#stopka {
+background-color: #cc6600;
+font-style: italic;
+border: 3px solid black;
+text-align: left;
+margin: 20px 20px 20px 20px;
+padding-left: 15px;
+}
+#cookie {
+position: fixed;
+height: 100px;
+bottom: 0%;
+width: 105%;
+left: -20px;
+background-color: rgb(51, 51, 255, 0.7);
+font-size: 15pt;
+text-align: center;
+}
+#cookie button {
+background-color: lightblue;
+font-size: 15pt;
+}
+#rezerwacje td {
+border: 1.5px dotted #0033cc;
+}
+#rezerwacje th {
+border: 1.5px solid #0033cc;
+}
+#rezerwacje td:nth-child(3), #rezerwacje td[colspan="3"] {
+background-color: red;
+}
+#rezerwacje td[colspan="2"] {
+background-color: green;
+}
+fieldset {
+border-radius: 25px;
+width: 60%;
+margin-bottom: 2em;
+margin-left: 3em;
+}
+fieldset td:nth-child(1) {
+width: 200px;
+}
+fieldset td:nth-child(2) {
+width: 50px;
+}
+
+
+
+
+
+

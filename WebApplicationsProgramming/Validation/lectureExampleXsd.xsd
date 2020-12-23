@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- The purpose of an XML Schema is to define the legal building blocks
+     of an XML document:
+        1. the elements and attributes that can appear in a document
+        2. the number of (and order of) child elements
+        3. data types for elements and attributes
+        4. default and fixed values for elements and attributes
+-->
+<!-- schema zawsze jest rootem w plikach .xsd-->
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+    
+            targetNamespace="http://www.w3.org/2001/XMLSchema" 
+            
+            elementFormDefault="qualified">
+
+            <!-- Definicja typu -->
+            <xsd:complexType name="personalData">
+                <!-- xsd:sequence - elementy w okreslonej kolejnosci-->
+                <!-- xsd:all - elementy w dowolnej kolejnosci-->
+                <xsd:all>
+                    <!-- Wszystkie elementy lokalne są typu prostego-->
+                    <xsd:element name = "myCountry" type = "xsd:string" maxOccurs="1"/>
+                    <xsd:element name = "myStreet" type = "xsd:string"/>
+                    <xsd:element name = "myCity" type = "xsd:string"/>
+                </xsd:all>
+                <xsd:attribute name="someAttribute" type="xsd:date" use="optional" default="1999-01-01"/>
+            </xsd:complexType>
+            
+
+            <!-- Deklaracja elementu -->
+            <!-- Element globalny-->
+            <xsd:element name="exampleElement" type="xsd:personalData"/>
+
+
+            <!-- Globalny element ze zlozonymi elementami lokalnymi -->
+            <xsd:element name="exampleBook">
+
+                <!-- Globalny element książka jest typu złożonego -->
+                <xsd:complexType>
+                    <!-- Deklaracje elementów lokalnych-->
+                    <xsd:sequence>
+
+                        <!-- 1. tytuł-->
+                        <xsd:element name="title">
+                            <xsd:complexType>
+                                <!-- simpleContent element contains extensions or restrictions -->
+                                <xsd:simpleContent>
+                                    <xsd:extension base = "xsd:normalizedString">
+                                        <xsd:attribute name="subject" type="xsd:token"/>
+                                    </xsd:extension>
+                                </xsd:simpleContent>
+                            </xsd:complexType>
+                        </xsd:element>
+
+                        <!-- 2. rodział -->
+                        <xsd:element name="chapter" maxOccurs="unbounded">
+                            <xsd:complexType>
+                                <xsd:sequence>
+                                    <!-- 2.1. section -->
+                                    <xsd:element name="section" minOccurs="0" maxOccurs="unbounded">
+                                        <xsd:complexType>
+                                            <xsd:simpleContent>
+                                                <xsd:extension base="xsd:normalizedString">
+                                                    <xsd:attribute name="topic" type="xsd:normalizedString"/>
+                                                </xsd:extension>
+                                            </xsd:simpleContent>
+                                        </xsd:complexType>
+                                    </xsd:element>
+                                </xsd:sequence>
+
+                                <xsd:attribute name="title" type = "xsd:normalizedString"/>
+                                <xsd:attribute name="number" type="xsd:positiveInteger"/>
+
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+
+</xsd:schema>

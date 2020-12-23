@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wypożyczalnia zwierzątek</title>
+    <link rel="stylesheet" href="styleSheet.css">
+</head>
+<body>
+<header>
+    <h1>Wypożyczalnia zwierzątek</h1>
+    <h4>Każde zwierzątko ma niepowtarzalne zalety</h4>
+</header>
+<div id="yellow-background">
+<h3>Procedura rezerwacji</h3>
+<ol>
+    <li>Wejście na tę stronę.</li>
+    <li>Wypełnienie formularza.</li>
+    <li>Kontakt telefoniczny z biurem.</li>
+    <li>Wniesienie opłaty.</li>
+</ol>
+<h3>Dostępne godziny rezerwacji</h3>
+<table id="rezerwacje">
+    <tbody>
+    <tr>
+        <th>Dzień tygodnia</th><th>8-10</th><th>10-12</th><th>14-17</th>
+    </tr>
+    <tr>
+        <td>Poniedziałek</td><td colspan="3">Brak wypożyczeń</td>
+    </tr>
+    <tr>
+        <td>Wtorek</td><td colspan="2">Wolne</td><td>Rezerwacja</td>
+    </tr>
+    </tbody>
+</table>
+<h3>Formularz</h3>
+<form  method="get" action="rezerwacja.html">
+    <fieldset><legend>Wybierz zwierzątko</legend>
+        <table>
+            <tr>
+                <td><label for="zwierzatko">Zwierzątko</label></td>
+                <td>|</td>
+                <td><select id="zwierzatko" name="zwierzatko">
+                    <option value="Przytulek"selected>Przytulek</option>
+                    <option value="Milutek">Milutek</option>
+                    <option value="Baraszek">Baraszek</option>
+                    <option value="Miłinka">Miłinka</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="z-pokarmem">Z pokarmem</label></td>
+                <td>|</td>
+                <td><input type="radio" name="pokarm" id="z-pokarmem"></td>
+            </tr>
+            <tr>
+                <td><label for="bez-pokarmu">Bez pokarmu</label></td>
+                <td>|</td>
+                <td><input type="radio" name="pokarm" id="bez-pokarmu" checked></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset><legend>Twoje dane</legend>
+        <table>
+            <tr>
+                <td><label for="imie">Imię</label></td>
+                <td>|</td>
+                <td><input type="text" id="imie" name="imie"></td>
+            </tr>
+            <tr>
+                <td><label for="telefon">Telefon kontaktowy</label></td>
+                <td>|</td>
+                <td><input type="text" id="telefon" name="telefon" placeholder="Telefon tylko 9 cyfr" pattern="^[0-9]+$" maxlength="9"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <button type="submit">Wyślij zgłoszenie</button>
+</form>
+</div>
+<div id="stopka">
+    <p>Kontakt:<br>
+    Firma Naciesz & Przyjaciele S.A.<br>
+    00-662 Warszawa<br>
+    ul. Koszykowa 75<br>
+    <a href="mailto:firma@naciesz.pl">firma@naciesz.pl</a>
+    </p>
+</div>
+</body>
+</html>

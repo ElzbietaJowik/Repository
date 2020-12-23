@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="transformation.xsl"?> -->
+
+<!-- Tworzenie elementu zadeklarowanego w pliku xsd-->
+<exampleElementsContainer>
+
+<exampleElement xmlns="http://www.w3.org/2001/XMLSchema"
+                xmlns:diff = "http://www.anotherNamespace.org/example"
+
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.mini.pw.edu.pl/iplabs
+                                    lectureExampleXsd.xsd"
+                
+                someAttribute = "1900-01-01">
+
+                <myCountry>Poland</myCountry>
+                <myCity>Warsaw</myCity>
+                <myStreet>Plac Politechniki</myStreet>
+
+</exampleElement>
+
+<exampleBook xmlns="http://www.w3.org/2001/XMLSchema"
+                xmlns:diff = "http://www.anotherNamespace.org/example"
+
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.w3.org/2001/XMLSchema
+                                    lectureExampleXsd.xsd"
+                
+                someAttribute = "1900-01-01">
+                <!-- typ prosty-->
+                <location>Warsaw</location>
+
+                <!-- typy złożone-->
+                <title subject = "programming">HTML lectures</title>
+
+                <chapter number = "1" title = "Introduction">
+                    <section title = "Acknowledgements"/>
+                </chapter>
+                <chapter number = "2" title = "Web Programming">
+                    <section topic = "Why HTML?"/>
+                    <section topic = "SGML and HTML?"/>
+                </chapter>
+</exampleBook>
+
+</exampleElementsContainer>
