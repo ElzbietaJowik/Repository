@@ -1,0 +1,28 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: elzbi
+ * Creation Date: 23 gru 2020 at 09:54:18
+ *********************************************/
+Products = {"kluski", "capellini", "fettucine"};
+Resources = {"flour", "eggs"};
+NbPeriods = 3;
+
+SheetConnection sheet("CPLEXMulprodSheet.xlsx");
+Consumption from SheetRead(sheet, "'consumption'!B2:D3");
+Demand from SheetRead(sheet, "'demand'!B2:D4");
+
+// Consumption = [
+//                [ 0.5, 0.4, 0.3 ],
+//                [ 0.2, 0.4, 0.6 ]
+//              ];
+Capacity = [ 20, 40 ];
+// Demand = [
+//           [ 10 100 50 ]
+//           [ 20 200 100]
+//           [ 50 100 100]
+//         ];
+Inventory = [ 0 0 0];
+// InvCost = [ 0.0 0.0 0.0];  
+InvCost = [ 0.1 0.2 0.1]; 
+InsideCost = [ 0.4, 0.6, 0.1 ];
+OutsideCost  = [ 0.8, 0.9, 0.4 ];

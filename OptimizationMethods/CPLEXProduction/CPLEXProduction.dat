@@ -1,0 +1,13 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: elzbi
+ * Creation Date: 9 gru 2020 at 08:51:52
+ *********************************************/
+Products = {"kluski", "capellini", "fettucine"};
+Resources = {"flour", "eggs"};
+consumption = [[0.5, 0.2], [0.4, 0.4], [0.3, 0.6]];
+Demand = [100, 200, 300];
+costInside = [0.6, 0.8, 0.3];
+costOutside = [0.8, 0.9, 0.4];
+MaxOutside = [200, 200, 200];
+LimitResources = [120, 150];

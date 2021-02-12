@@ -1,0 +1,32 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: elzbi
+ * Creation Date: 23 gru 2020 at 09:31:34
+ *********************************************/
+
+Products = {"kluski", "capellini", "fettucine"};
+Resources = {"flour", "eggs"};
+
+product = #[
+		kluski : <100, 0.6, 0.8>
+		capellini: <200, 0.8, 0.9>
+		fettucine: <300, 0.3, 0.4>
+		]#;
+		
+availability = [120, 150];
+
+consumption = {
+	<"kluski", "flour", 0.5>, 	  // This instantiation of the tuple set
+	<"capellini", "flour", 0.4>,  // "consumption" replaces the array
+	<"fettucine", "flour", 0.3>,  // that was formarly in the 'ProductData' tuple
+	<"kluski", "eggs", 0.2>,
+	<"capellini", "eggs", 0.4>,
+	<"fettucine", "eggs", 0.6>
+};
+
+maxOutsideProduction = 200; // contractual maximum amount that may be outsourced for any product
+
+
+
+
+

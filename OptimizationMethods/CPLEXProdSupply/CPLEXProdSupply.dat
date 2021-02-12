@@ -1,0 +1,36 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: Rados³aw
+ * Creation Date: 19 sty 2021 at 20:54:59
+ *********************************************/
+Products =  { "kluski" "capellini" "fettucine" };
+Resources = { "flour" "eggs" };
+Stores = { "Opole" "Lublin" "Kielce"};
+
+//SheetConnection sheet("CPLEXAgdTuple.xls");
+//Svailability from SheetRead(sheet,"'availability'!B2:C4");
+
+product = #[
+      kluski : < 0.6, 0.8 >       //consumption has been
+      capellini : < 0.8, 0.9 >    //removed from this tuple. 
+      fettucine : < 0.3, 0.4 >    //There are no more arrays in it.
+          ]#;
+         
+availability = [ 120, 150 ];
+// availability = [ 30, 60 ];
+
+consumption=                  //This instantiation of the tuple set
+{<"kluski","flour",0.5>,      //"consumption" replaces the array
+<"capellini","flour",0.4>,    //that was formerly in the "ProductData"
+<"fettucine","flour",0.3>,    //tuple.
+<"kluski","eggs",0.2>,
+<"capellini","eggs",0.4>,
+<"fettucine","eggs",0.6>};
+
+supply = [<[30, 30, 30], 5, 7>,
+           <[100, 120, 140], 10, 12>,
+           <[170, 150, 130], 8, 10> ];
+
+maxProd = 200; // contractual maximum amount that may be outsourced for any product.
+ 
+ 

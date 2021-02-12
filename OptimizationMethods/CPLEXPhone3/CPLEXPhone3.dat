@@ -1,0 +1,13 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: elzbi
+ * Creation Date: 25 lis 2020 at 09:54:45
+ *********************************************/
+Products = {"Desk", "Cell"};
+Atime = [0.2, 0.4];
+Ptime = [0.5, 0.4];
+Aavail = 400.0;
+Pavail = 490.0;
+// profit = [12, 20];
+minProd = [100, 200];
+profit = #[Desk:12 Cell:20]#;
